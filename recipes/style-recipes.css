@@ -1,5 +1,6 @@
 body{
     background-color: #f2e9e4;
+
 }
 
 #onigiri{
@@ -7,10 +8,26 @@ body{
     width: 30em;
 }
 
-h1{
+h1, h2, h3{
     font-family: 'Maven Pro', sans-serif;
 }
 
-h3{
-    font-family: 'Maven Pro', sans-serif;
+
+
+.ingredients,
+.steps,
+.intro{
+    border-bottom: 1px solid #c9ada7;
+    margin-right: 38rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+a:hover{
+    text-decoration: underline;
+    font-size: 1.08em;
 }
